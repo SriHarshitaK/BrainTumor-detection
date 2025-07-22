@@ -1,0 +1,51 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm project settings
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and test outputs
+*.log
+
+# Environment variables (if any)
+.env
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Model weights or large files (optional if you version them separately)
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pb
+
+# MacOS resource fork files
+._*
+
+
+__pycache__/
+*.pyc
+*.keras
+*.h5
+venv/
+archive/
+model/
